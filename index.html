@@ -1,0 +1,30 @@
+<!--
+PROJETO: Interface de Quiz Interativo
+AUTOR: Tony Petter Morais
+CURSO: Análise e Desenvolvimento de Sistemas
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Facul</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<div class="caixa-quiz">
+<div id="texto-pergunta">Você gostaria de ter um banco onde o site, o aplicativo e até seu cartão de crédito te representem?</div>
+
+<div class="botoes">
+<button class="btn" onclick="proximaPergunta()">Sim</button>
+<button class="btn" onclick="proximaPergunta()">Não</button>
+</div>
+
+<!-- O link abaixo começa escondido (display: none) e aponta para o seu arquivo banco.html -->
+<a href="banco.html" id="link-banco" style="display: none; color: #50fa7b; font-weight: bold; margin-top: 20px; text-decoration: none; font-size: 18px;">👉 Conhecer Meus Cartões</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

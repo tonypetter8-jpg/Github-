@@ -1,0 +1,48 @@
+/* Estilo do Projeto Quiz - Autor: Tony P. Morais */
+
+body {
+background-color: #282a36;
+color: #f8f8f2;
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+}
+
+.caixa-quiz {
+background-color: #44475a;
+padding: 30px;
+border-radius: 8px;
+text-align: center;
+max-width: 450px;
+width: 100%;
+box-sizing: border-box;
+}
+
+#texto-pergunta {
+font-size: 20px;
+color: #50fa7b;
+line-height: 1.5;
+font-weight: 500;
+margin: 0 0 25px 0;
+}
+
+.botoes {
+margin-top: 20px;
+}
+
+.btn {
+background-color: #bd93f9;
+color: #282a36;
+border: none;
+padding: 10px 25px;
+margin: 10px 0;
+font-size: 16px;
+font-weight: bold;
+border-radius: 5px;
+cursor: pointer;
+width: 100%;
+box-sizing: border-box;
+}
